@@ -4,9 +4,17 @@
 namespace app\Middlewares;
 
 
-class TestMiddlewares
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\RequestHandlerInterface;
+use Soen\Http\Server\Middleware\MiddlewareInterface;
+
+class TestMiddlewares implements MiddlewareInterface
 {
-	function handle(){
-		echo 666;
+	public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
+	{
+		echo 55555;
+		return $handler->handle($request);
 	}
+
 }
