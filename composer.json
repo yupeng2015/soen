@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": ">=7.0",
-        "soen/router": "dev-master"
+        "soen/router": "dev-master",
+        "soen/http-message": "dev-master"
     },
     "minimum-stability": "dev",
     "repositories": {
