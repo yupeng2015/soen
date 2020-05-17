@@ -1,0 +1,25 @@
+{
+    "name": "soen/frame",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "soen",
+            "email": "soen66@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "soen/router": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "soen/router": {
+            "type": "path",
+            "url": "/home/www-data/soen/vendor/soen/router",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
+}
