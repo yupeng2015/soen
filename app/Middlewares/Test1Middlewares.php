@@ -9,11 +9,11 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Soen\Http\Server\Middleware\Middleware;
 
-class TestMiddlewares extends Middleware
+class Test1Middlewares extends Middleware
 {
 	public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
 	{
-		echo 55555;
+		echo 666;
 		return $handler->handle($request);
 	}
 

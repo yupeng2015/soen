@@ -12,7 +12,13 @@
         "php": ">=7.0",
         "soen/router": "dev-master",
         "soen/http-message": "dev-master",
-        "soen/http-server": "dev-master"
+        "soen/http-server": "dev-master",
+        "soen/server": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     },
     "minimum-stability": "dev",
     "repositories": {
@@ -33,6 +39,13 @@
         "soen/http-server": {
             "type": "path",
             "url": "/home/www-data/soen/vendor/soen/http-server",
+            "options": {
+                "symlink": true
+            }
+        },
+        "soen/server": {
+            "type": "path",
+            "url": "/home/www-data/soen/vendor/soen/server",
             "options": {
                 "symlink": true
             }

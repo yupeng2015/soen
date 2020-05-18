@@ -6,9 +6,7 @@ use Soen\Http\Message\Response;
 
 Router::addRoute(['get'], '/index', [\App\Controllers\IndexController::class, 'index'], function (){
 	return [
-		function(Request $request, Response $response){
-			echo 555;
-		},
-		\app\Middlewares\TestMiddlewares::class
+		\App\Middlewares\TestMiddlewares::class,
+		\App\Middlewares\Test1Middlewares::class,
 	];
 });

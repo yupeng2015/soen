@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c7fa0c75dde20e520dcb8da6b4afb35",
+    "content-hash": "1b1c0c2813339573feb7fd3761bd6eea",
     "packages": [
         {
             "name": "psr/http-message",
@@ -186,12 +186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yupeng2015/soen-http-message.git",
-                "reference": "2e764d4d63c9925f30a0fa8fb236b85744e76180"
+                "reference": "dd8bed43b6300b4879536a9b2f8cfdeca0d1b422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/2e764d4d63c9925f30a0fa8fb236b85744e76180",
-                "reference": "2e764d4d63c9925f30a0fa8fb236b85744e76180",
+                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
+                "reference": "dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -221,7 +221,7 @@
                 }
             ],
             "description": "soen/http-message",
-            "time": "2020-05-17T09:18:22+00:00"
+            "time": "2020-05-18T10:24:48+00:00"
         },
         {
             "name": "soen/http-server",
@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yupeng2015/soen-http-server.git",
-                "reference": "1ee48fc2109635c9caf7c6d2b69ba68312c67e98"
+                "reference": "09ffb1a0d0814f8203ae787110a0a341f5cc060c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-http-server/zipball/1ee48fc2109635c9caf7c6d2b69ba68312c67e98",
-                "reference": "1ee48fc2109635c9caf7c6d2b69ba68312c67e98",
+                "url": "https://api.github.com/repos/yupeng2015/soen-http-server/zipball/09ffb1a0d0814f8203ae787110a0a341f5cc060c",
+                "reference": "09ffb1a0d0814f8203ae787110a0a341f5cc060c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -266,7 +266,7 @@
                 }
             ],
             "description": "soen/http-server",
-            "time": "2020-05-17T15:07:20+00:00"
+            "time": "2020-05-18T10:28:35+00:00"
         },
         {
             "name": "soen/router",
@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yupeng2015/soen-router.git",
-                "reference": "f6f69b7a67c38e10d19fd9e2de1de0cdcc930058"
+                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-router/zipball/f6f69b7a67c38e10d19fd9e2de1de0cdcc930058",
-                "reference": "f6f69b7a67c38e10d19fd9e2de1de0cdcc930058",
+                "url": "https://api.github.com/repos/yupeng2015/soen-router/zipball/65ae98bb8749d218cfc650884eac0a60fa7c5c81",
+                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -310,7 +310,51 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "time": "2020-05-17T09:16:26+00:00"
+            "time": "2020-05-18T10:30:41+00:00"
+        },
+        {
+            "name": "soen/server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yupeng2015/soen-server.git",
+                "reference": "8d4e499b0c725f0b612876714f4d21a5a7ff451d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yupeng2015/soen-server/zipball/8d4e499b0c725f0b612876714f4d21a5a7ff451d",
+                "reference": "8d4e499b0c725f0b612876714f4d21a5a7ff451d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0",
+                "psr/http-server-handler": "^1.0",
+                "psr/http-server-middleware": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Soen\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soen",
+                    "email": "soen66@163.com"
+                }
+            ],
+            "time": "2020-05-18T10:35:44+00:00"
         }
     ],
     "packages-dev": [],
@@ -319,7 +363,8 @@
     "stability-flags": {
         "soen/router": 20,
         "soen/http-message": 20,
-        "soen/http-server": 20
+        "soen/http-server": 20,
+        "soen/server": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
