@@ -1,10 +1,12 @@
 <?php
 
 use Soen\Router\Router;
+use Soen\Http\Message\Request;
+use Soen\Http\Message\Response;
 
-Router::addRoute(['get'], '/', [\App\Controllers\IndexController::class, 'index'], function (){
+Router::addRoute(['get'], '/index', [\App\Controllers\IndexController::class, 'index'], function (){
 	return [
-		function(){
+		function(Request $request, Response $response){
 			echo 555;
 		},
 		\app\Middlewares\TestMiddlewares::class

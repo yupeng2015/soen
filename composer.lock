@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ce44843f17fa457d1f065be4e298ea4",
+    "content-hash": "0c7fa0c75dde20e520dcb8da6b4afb35",
     "packages": [
         {
             "name": "psr/http-message",
@@ -183,10 +183,22 @@
         {
             "name": "soen/http-message",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yupeng2015/soen-http-message.git",
+                "reference": "2e764d4d63c9925f30a0fa8fb236b85744e76180"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/http-message",
-                "reference": "2c8fd8560f96c85a6dbefd265afd0800325ff63c"
+                "type": "zip",
+                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/2e764d4d63c9925f30a0fa8fb236b85744e76180",
+                "reference": "2e764d4d63c9925f30a0fa8fb236b85744e76180",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.0",
@@ -198,6 +210,7 @@
                     "Soen\\Http\\Message\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -208,17 +221,27 @@
                 }
             ],
             "description": "soen/http-message",
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-05-17T09:18:22+00:00"
         },
         {
             "name": "soen/http-server",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yupeng2015/soen-http-server.git",
+                "reference": "1ee48fc2109635c9caf7c6d2b69ba68312c67e98"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/http-server",
-                "reference": "e81a2c0cbe9f62a77ab0bf2ec489f8fc53a647a6"
+                "type": "zip",
+                "url": "https://api.github.com/repos/yupeng2015/soen-http-server/zipball/1ee48fc2109635c9caf7c6d2b69ba68312c67e98",
+                "reference": "1ee48fc2109635c9caf7c6d2b69ba68312c67e98",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.0",
@@ -232,6 +255,7 @@
                     "Soen\\Http\\Server\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -242,17 +266,27 @@
                 }
             ],
             "description": "soen/http-server",
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-05-17T15:07:20+00:00"
         },
         {
             "name": "soen/router",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yupeng2015/soen-router.git",
+                "reference": "f6f69b7a67c38e10d19fd9e2de1de0cdcc930058"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/router",
-                "reference": "ca1210f283b3cadf3409a6a8fd39bde7e15d0d79"
+                "type": "zip",
+                "url": "https://api.github.com/repos/yupeng2015/soen-router/zipball/f6f69b7a67c38e10d19fd9e2de1de0cdcc930058",
+                "reference": "f6f69b7a67c38e10d19fd9e2de1de0cdcc930058",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.0",
@@ -266,6 +300,7 @@
                     "Soen\\Router\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -275,9 +310,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-05-17T09:16:26+00:00"
         }
     ],
     "packages-dev": [],
