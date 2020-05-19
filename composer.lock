@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b1c0c2813339573feb7fd3761bd6eea",
+    "content-hash": "f1a3813ed05f811b98b79a8bca36cfe8",
     "packages": [
         {
             "name": "psr/http-message",
@@ -183,22 +183,11 @@
         {
             "name": "soen/http-message",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yupeng2015/soen-http-message.git",
-                "reference": "dd8bed43b6300b4879536a9b2f8cfdeca0d1b422"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
                 "reference": "dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
@@ -226,22 +215,11 @@
         {
             "name": "soen/http-server",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yupeng2015/soen-http-server.git",
-                "reference": "09ffb1a0d0814f8203ae787110a0a341f5cc060c"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yupeng2015/soen-http-server/zipball/09ffb1a0d0814f8203ae787110a0a341f5cc060c",
                 "reference": "09ffb1a0d0814f8203ae787110a0a341f5cc060c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
@@ -271,22 +249,11 @@
         {
             "name": "soen/router",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yupeng2015/soen-router.git",
-                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yupeng2015/soen-router/zipball/65ae98bb8749d218cfc650884eac0a60fa7c5c81",
                 "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
@@ -315,22 +282,11 @@
         {
             "name": "soen/server",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yupeng2015/soen-server.git",
-                "reference": "8d4e499b0c725f0b612876714f4d21a5a7ff451d"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yupeng2015/soen-server/zipball/8d4e499b0c725f0b612876714f4d21a5a7ff451d",
                 "reference": "8d4e499b0c725f0b612876714f4d21a5a7ff451d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
@@ -357,14 +313,56 @@
             "time": "2020-05-18T10:35:44+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "swoole/ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoole/ide-helper.git",
+                "reference": "4020851800932578c51eb472b1ad6148bf311ed5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/4020851800932578c51eb472b1ad6148bf311ed5",
+                "reference": "4020851800932578c51eb472b1ad6148bf311ed5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~6.5.0",
+                "laminas/laminas-code": "~3.4.0",
+                "squizlabs/php_codesniffer": "~3.5.0",
+                "symfony/filesystem": "~4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team Swoole",
+                    "email": "team@swoole.com"
+                }
+            ],
+            "description": "IDE help files for Swoole.",
+            "time": "2020-05-11T20:47:58+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "soen/router": 20,
         "soen/http-message": 20,
         "soen/http-server": 20,
-        "soen/server": 20
+        "soen/server": 20,
+        "swoole/ide-helper": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -50,5 +50,8 @@
                 "symlink": true
             }
         }
+    },
+    "require-dev": {
+        "swoole/ide-helper": "dev-master"
     }
 }
