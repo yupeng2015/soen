@@ -13,7 +13,9 @@
         "soen/router": "dev-master",
         "soen/http-message": "dev-master",
         "soen/http-server": "dev-master",
-        "soen/server": "dev-master"
+        "soen/server": "dev-master",
+        "soen/container": "dev-master",
+        "soen/command": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -53,6 +55,13 @@
         "soen/container": {
             "type": "path",
             "url": "/home/www-data/soen/vendor/soen/container",
+            "options": {
+                "symlink": true
+            }
+        },
+        "soen/command": {
+            "type": "path",
+            "url": "/home/www-data/soen/vendor/soen/command",
             "options": {
                 "symlink": true
             }

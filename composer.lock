@@ -4,8 +4,115 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1a3813ed05f811b98b79a8bca36cfe8",
+    "content-hash": "748c60b38ff05084442af472dee3ad97",
     "packages": [
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2019-10-04T14:07:35+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "cfea31e2e2abbe98159e825ce7d5040a39fba5f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/cfea31e2e2abbe98159e825ce7d5040a39fba5f0",
+                "reference": "cfea31e2e2abbe98159e825ce7d5040a39fba5f0",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "time": "2019-05-22T19:30:22+00:00"
+        },
         {
             "name": "psr/http-message",
             "version": "dev-master",
@@ -181,12 +288,122 @@
             "time": "2019-05-23T18:10:42+00:00"
         },
         {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2020-03-23T09:12:05+00:00"
+        },
+        {
+            "name": "soen/command",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/www-data/soen/vendor/soen/command",
+                "reference": "7bf0434addac144dc9873e0cb0c75e6dd2bf4eab"
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/event-dispatcher": "1.0.*",
+                "psr/log": "1.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Soen\\Command\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soen",
+                    "email": "soen66@163.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "soen/container",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/www-data/soen/vendor/soen/container",
+                "reference": "5325d9571cce640e52a460fc209d39ffe61b51fe"
+            },
+            "require": {
+                "psr/container": "^1.0@dev"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soen",
+                    "email": "soen66@163.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
             "name": "soen/http-message",
             "version": "dev-master",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
-                "reference": "dd8bed43b6300b4879536a9b2f8cfdeca0d1b422",
+                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/e92dd54715ee9bee27cf68d2c795ebc96f42e9e3",
+                "reference": "e92dd54715ee9bee27cf68d2c795ebc96f42e9e3",
                 "shasum": ""
             },
             "require": {
@@ -210,16 +427,18 @@
                 }
             ],
             "description": "soen/http-message",
-            "time": "2020-05-18T10:24:48+00:00"
+            "transport-options": {
+                "symlink": true
+            },
+            "time": "2020-05-19T10:32:22+00:00"
         },
         {
             "name": "soen/http-server",
             "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-http-server/zipball/09ffb1a0d0814f8203ae787110a0a341f5cc060c",
-                "reference": "09ffb1a0d0814f8203ae787110a0a341f5cc060c",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/www-data/soen/vendor/soen/http-server",
+                "reference": "3e82cf6bf934a66b2fc3b648fb8ed0462f2bbca4"
             },
             "require": {
                 "php": ">=7.0",
@@ -233,7 +452,6 @@
                     "Soen\\Http\\Server\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -244,16 +462,17 @@
                 }
             ],
             "description": "soen/http-server",
-            "time": "2020-05-18T10:28:35+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "soen/router",
             "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-router/zipball/65ae98bb8749d218cfc650884eac0a60fa7c5c81",
-                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/www-data/soen/vendor/soen/router",
+                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
             },
             "require": {
                 "php": ">=7.0",
@@ -267,7 +486,6 @@
                     "Soen\\Router\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -277,16 +495,17 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "time": "2020-05-18T10:30:41+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "soen/server",
             "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-server/zipball/8d4e499b0c725f0b612876714f4d21a5a7ff451d",
-                "reference": "8d4e499b0c725f0b612876714f4d21a5a7ff451d",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/www-data/soen/vendor/soen/server",
+                "reference": "a9aac90a7d0de8c012f60571d93a80150498fe94"
             },
             "require": {
                 "php": ">=7.0",
@@ -300,7 +519,6 @@
                     "Soen\\Server\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -310,7 +528,9 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "time": "2020-05-18T10:35:44+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         }
     ],
     "packages-dev": [
@@ -362,6 +582,8 @@
         "soen/http-message": 20,
         "soen/http-server": 20,
         "soen/server": 20,
+        "soen/container": 20,
+        "soen/command": 20,
         "swoole/ide-helper": 20
     },
     "prefer-stable": false,
