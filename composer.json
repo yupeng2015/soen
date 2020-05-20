@@ -49,6 +49,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        "soen/container": {
+            "type": "path",
+            "url": "/home/www-data/soen/vendor/soen/container",
+            "options": {
+                "symlink": true
+            }
         }
     },
     "require-dev": {
