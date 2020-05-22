@@ -15,7 +15,8 @@
         "soen/http-server": "dev-master",
         "soen/server": "dev-master",
         "soen/container": "dev-master",
-        "soen/command": "dev-master"
+        "soen/command": "dev-master",
+        "soen/event": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -62,6 +63,13 @@
         "soen/command": {
             "type": "path",
             "url": "/home/www-data/soen/vendor/soen/command",
+            "options": {
+                "symlink": true
+            }
+        },
+        "soen/event": {
+            "type": "path",
+            "url": "/home/www-data/soen/vendor/soen/event",
             "options": {
                 "symlink": true
             }
