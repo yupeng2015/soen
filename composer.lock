@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "748c60b38ff05084442af472dee3ad97",
+    "content-hash": "e8939673e559a8f83d3069a579345b14",
     "packages": [
         {
             "name": "psr/container",
@@ -67,12 +67,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/event-dispatcher.git",
-                "reference": "cfea31e2e2abbe98159e825ce7d5040a39fba5f0"
+                "reference": "3b1c10727b12ecdfc7b80b040b887a94c64d8388"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/cfea31e2e2abbe98159e825ce7d5040a39fba5f0",
-                "reference": "cfea31e2e2abbe98159e825ce7d5040a39fba5f0",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/3b1c10727b12ecdfc7b80b040b887a94c64d8388",
+                "reference": "3b1c10727b12ecdfc7b80b040b887a94c64d8388",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -111,7 +111,7 @@
                 "psr",
                 "psr-14"
             ],
-            "time": "2019-05-22T19:30:22+00:00"
+            "time": "2020-05-26T00:50:43+00:00"
         },
         {
             "name": "psr/http-message",
@@ -345,13 +345,13 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/command",
-                "reference": "7bf0434addac144dc9873e0cb0c75e6dd2bf4eab"
+                "url": "/home/www-data/soen/package/command",
+                "reference": "6ae4f18a1ae1d01a6951ef724abc6424b2f5afa9"
             },
             "require": {
                 "php": ">=7.0.0",
-                "psr/event-dispatcher": "1.0.*",
-                "psr/log": "1.1.*"
+                "psr/event-dispatcher": ">=1.0",
+                "psr/log": ">=1.0"
             },
             "type": "library",
             "autoload": {
@@ -369,7 +369,7 @@
                 }
             ],
             "transport-options": {
-                "symlink": true
+                "relative": false
             }
         },
         {
@@ -377,13 +377,18 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/container",
-                "reference": "5325d9571cce640e52a460fc209d39ffe61b51fe"
+                "url": "/home/www-data/soen/package/container",
+                "reference": "07fc1497ade569f1ce688b40e9b13f1269753c0f"
             },
             "require": {
-                "psr/container": "^1.0@dev"
+                "psr/container": "^1.0"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Soen\\Container\\": "src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -393,18 +398,83 @@
                     "email": "soen66@163.com"
                 }
             ],
+            "description": "soen/container",
             "transport-options": {
-                "symlink": true
+                "relative": false
+            }
+        },
+        {
+            "name": "soen/event",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/www-data/soen/package/event",
+                "reference": "155c3fd2b9c44a9f92a5ff363d4074996b33d7dc"
+            },
+            "require": {
+                "psr/event-dispatcher": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Soen\\Event\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soen",
+                    "email": "soen66@163.com"
+                }
+            ],
+            "keywords": [
+                "event",
+                "soen"
+            ],
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
+            "name": "soen/filesystem",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/www-data/soen/frame/vendor/soen/filesystem",
+                "reference": "b93c24b65d4e304a0bb8002a84d71a5efb6cdae1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Soen\\Filesystem\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soen",
+                    "email": "soen66@163.com"
+                }
+            ],
+            "keywords": [
+                "filesystem",
+                "soen"
+            ],
+            "transport-options": {
+                "relative": false
             }
         },
         {
             "name": "soen/http-message",
             "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yupeng2015/soen-http-message/zipball/e92dd54715ee9bee27cf68d2c795ebc96f42e9e3",
-                "reference": "e92dd54715ee9bee27cf68d2c795ebc96f42e9e3",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/www-data/soen/package/http-message",
+                "reference": "1f96c2036e4d93044d1aa2090c478f690b8a9ece"
             },
             "require": {
                 "php": ">=7.0",
@@ -416,7 +486,6 @@
                     "Soen\\Http\\Message\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -428,17 +497,16 @@
             ],
             "description": "soen/http-message",
             "transport-options": {
-                "symlink": true
-            },
-            "time": "2020-05-19T10:32:22+00:00"
+                "relative": false
+            }
         },
         {
             "name": "soen/http-server",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/http-server",
-                "reference": "3e82cf6bf934a66b2fc3b648fb8ed0462f2bbca4"
+                "url": "/home/www-data/soen/package/http-server",
+                "reference": "340cfcf809234fd7c1d4afe429ab436f3f798480"
             },
             "require": {
                 "php": ">=7.0",
@@ -463,7 +531,7 @@
             ],
             "description": "soen/http-server",
             "transport-options": {
-                "symlink": true
+                "relative": false
             }
         },
         {
@@ -471,7 +539,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/router",
+                "url": "/home/www-data/soen/package/router",
                 "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
             },
             "require": {
@@ -496,7 +564,7 @@
                 }
             ],
             "transport-options": {
-                "symlink": true
+                "relative": false
             }
         },
         {
@@ -504,8 +572,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/vendor/soen/server",
-                "reference": "a9aac90a7d0de8c012f60571d93a80150498fe94"
+                "url": "/home/www-data/soen/package/server",
+                "reference": "efc5da3708169e3f6a324ae1147cc69c42e9a790"
             },
             "require": {
                 "php": ">=7.0",
@@ -529,7 +597,7 @@
                 }
             ],
             "transport-options": {
-                "symlink": true
+                "relative": false
             }
         }
     ],
@@ -578,18 +646,19 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "soen/filesystem": 20,
         "soen/router": 20,
+        "soen/container": 20,
+        "soen/event": 20,
+        "soen/command": 20,
         "soen/http-message": 20,
         "soen/http-server": 20,
         "soen/server": 20,
-        "soen/container": 20,
-        "soen/command": 20,
         "swoole/ide-helper": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=7.0"
-    },
-    "platform-dev": []
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

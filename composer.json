@@ -9,14 +9,14 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
+        "soen/filesystem": "dev-master",
         "soen/router": "dev-master",
+        "soen/container": "dev-master",
+        "soen/event": "dev-master",
+        "soen/command": "dev-master",
         "soen/http-message": "dev-master",
         "soen/http-server": "dev-master",
-        "soen/server": "dev-master",
-        "soen/container": "dev-master",
-        "soen/command": "dev-master",
-        "soen/event": "dev-master"
+        "soen/server": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -27,52 +27,35 @@
     "repositories": {
         "soen/router": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/router",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/router"
         },
         "soen/http-message": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/http-message",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/http-message"
         },
         "soen/http-server": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/http-server",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/http-server"
         },
         "soen/server": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/server",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/server"
         },
         "soen/container": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/container",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/container"
         },
         "soen/command": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/command",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/command"
         },
         "soen/event": {
             "type": "path",
-            "url": "/home/www-data/soen/vendor/soen/event",
-            "options": {
-                "symlink": true
-            }
+            "url": "/home/www-data/soen/frame/vendor/soen/event"
+        },
+        "soen/filesystem": {
+          "type": "path",
+          "url": "/home/www-data/soen/frame/vendor/soen/filesystem"
         }
     },
     "require-dev": {
