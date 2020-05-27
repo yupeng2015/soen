@@ -1,7 +1,8 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
-$webDirectory = dirname(__DIR__);
-$httpConfigDirectory = $webDirectory . '/config/http';
+$webDirectory = dirname(__DIR__, 1);
+! defined('BASE_PATH') && define('BASE_PATH', $webDirectory);
+$httpConfigDirectory = BASE_PATH . '/config/http';
 $array = (new Soen\Container\Server($httpConfigDirectory))->load();
 var_dump($array);
 

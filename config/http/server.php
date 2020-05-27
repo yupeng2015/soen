@@ -4,7 +4,7 @@ return [
     // 类路径
     'class'     => Soen\Http\Server\Server::class,
     // 构造函数注入
-    'property'  => [
+    'args'  => [
         // host
         '0.0.0.0',
         // port
