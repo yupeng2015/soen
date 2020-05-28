@@ -345,8 +345,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/command",
-                "reference": "6ae4f18a1ae1d01a6951ef724abc6424b2f5afa9"
+                "url": "/home/www-data/soen/frame/vendor/soen/command",
+                "reference": "9a3350c382ae7dd5f6c9169de1dfcc81a510e17f"
             },
             "require": {
                 "php": ">=7.0.0",
@@ -377,8 +377,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/container",
-                "reference": "07fc1497ade569f1ce688b40e9b13f1269753c0f"
+                "url": "/home/www-data/soen/frame/vendor/soen/container",
+                "reference": "961821aef1c3dea9e33c683ae3fea9e19b5d4e33"
             },
             "require": {
                 "psr/container": "^1.0"
@@ -387,7 +387,13 @@
             "autoload": {
                 "psr-4": {
                     "Soen\\Container\\": "src/"
-                }
+                },
+                "classmap": [
+                    "src/App.php"
+                ],
+                "files": [
+                    "src/functions.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -408,7 +414,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/event",
+                "url": "/home/www-data/soen/frame/vendor/soen/event",
                 "reference": "155c3fd2b9c44a9f92a5ff363d4074996b33d7dc"
             },
             "require": {
@@ -443,7 +449,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/filesystem",
-                "reference": "b93c24b65d4e304a0bb8002a84d71a5efb6cdae1"
+                "reference": "89f8526f8a5649fb86eec35da4a49f2204540ec6"
             },
             "type": "library",
             "autoload": {
@@ -473,7 +479,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/http-message",
+                "url": "/home/www-data/soen/frame/vendor/soen/http-message",
                 "reference": "1f96c2036e4d93044d1aa2090c478f690b8a9ece"
             },
             "require": {
@@ -505,7 +511,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/http-server",
+                "url": "/home/www-data/soen/frame/vendor/soen/http-server",
                 "reference": "340cfcf809234fd7c1d4afe429ab436f3f798480"
             },
             "require": {
@@ -539,8 +545,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/router",
-                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
+                "url": "/home/www-data/soen/frame/vendor/soen/router",
+                "reference": "b8c38bae587f053b0b0e1792f734ea2607a02491"
             },
             "require": {
                 "php": ">=7.0",
@@ -572,7 +578,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/server",
+                "url": "/home/www-data/soen/frame/vendor/soen/server",
                 "reference": "efc5da3708169e3f6a324ae1147cc69c42e9a790"
             },
             "require": {
