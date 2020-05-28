@@ -345,8 +345,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/command",
-                "reference": "6ae4f18a1ae1d01a6951ef724abc6424b2f5afa9"
+                "url": "/home/www-data/soen/frame/vendor/soen/command",
+                "reference": "1bbc5f9490b6fa2ae6505e0cd157eb83473a3b50"
             },
             "require": {
                 "php": ">=7.0.0",
@@ -367,18 +367,15 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/container",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/container",
-                "reference": "07fc1497ade569f1ce688b40e9b13f1269753c0f"
+                "url": "/home/www-data/soen/frame/vendor/soen/container",
+                "reference": "aee65e0f50da02229d25f411decdf947b0fb4565"
             },
             "require": {
                 "psr/container": "^1.0"
@@ -387,7 +384,13 @@
             "autoload": {
                 "psr-4": {
                     "Soen\\Container\\": "src/"
-                }
+                },
+                "classmap": [
+                    "src/App.php"
+                ],
+                "files": [
+                    "src/functions.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -398,17 +401,14 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/container",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/container"
         },
         {
             "name": "soen/event",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/event",
+                "url": "/home/www-data/soen/frame/vendor/soen/event",
                 "reference": "155c3fd2b9c44a9f92a5ff363d4074996b33d7dc"
             },
             "require": {
@@ -432,10 +432,7 @@
             "keywords": [
                 "event",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/filesystem",
@@ -443,7 +440,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/filesystem",
-                "reference": "b93c24b65d4e304a0bb8002a84d71a5efb6cdae1"
+                "reference": "89f8526f8a5649fb86eec35da4a49f2204540ec6"
             },
             "type": "library",
             "autoload": {
@@ -463,17 +460,14 @@
             "keywords": [
                 "filesystem",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/http-message",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/http-message",
+                "url": "/home/www-data/soen/frame/vendor/soen/http-message",
                 "reference": "1f96c2036e4d93044d1aa2090c478f690b8a9ece"
             },
             "require": {
@@ -495,17 +489,14 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-message",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-message"
         },
         {
             "name": "soen/http-server",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/http-server",
+                "url": "/home/www-data/soen/frame/vendor/soen/http-server",
                 "reference": "340cfcf809234fd7c1d4afe429ab436f3f798480"
             },
             "require": {
@@ -529,18 +520,15 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-server",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-server"
         },
         {
             "name": "soen/router",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/router",
-                "reference": "65ae98bb8749d218cfc650884eac0a60fa7c5c81"
+                "url": "/home/www-data/soen/frame/vendor/soen/router",
+                "reference": "b8c38bae587f053b0b0e1792f734ea2607a02491"
             },
             "require": {
                 "php": ">=7.0",
@@ -562,17 +550,14 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/server",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "/home/www-data/soen/package/server",
+                "url": "/home/www-data/soen/frame/vendor/soen/server",
                 "reference": "efc5da3708169e3f6a324ae1147cc69c42e9a790"
             },
             "require": {
@@ -595,10 +580,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         }
     ],
     "packages-dev": [
@@ -659,6 +641,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
