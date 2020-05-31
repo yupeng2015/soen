@@ -114,6 +114,64 @@
             "time": "2020-05-26T00:50:43+00:00"
         },
         {
+            "name": "psr/http-factory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "1a2099a23a7bca67f13c0634723137a364a3ebf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/1a2099a23a7bca67f13c0634723137a364a3ebf8",
+                "reference": "1a2099a23a7bca67f13c0634723137a364a3ebf8",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2019-12-29T01:52:41+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "dev-master",
             "source": {
@@ -376,7 +434,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/container",
-                "reference": "86ea9f52ec8dbbd6f8e67ad6ee68720fbe11d464"
+                "reference": "8d75ad7c79e31fee3c2e7d1ebdb7aa678ab79010"
             },
             "require": {
                 "psr/container": "^1.0"
@@ -469,10 +527,11 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/http-message",
-                "reference": "1f96c2036e4d93044d1aa2090c478f690b8a9ece"
+                "reference": "2c758ca15b032a8b3c11787a3735c549ee046db7"
             },
             "require": {
                 "php": ">=7.0",
+                "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0"
             },
             "type": "library",
@@ -498,7 +557,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/http-server",
-                "reference": "340cfcf809234fd7c1d4afe429ab436f3f798480"
+                "reference": "7a503269f574c28f6fbe3079e0915e95e9b288d7"
             },
             "require": {
                 "php": ">=7.0",
@@ -529,7 +588,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/router",
-                "reference": "6f54a18b2fd3734ceb8d01fd9a2cf094a3ae486e"
+                "reference": "8ddf3f65b7e8dea81a12396a03bbab59d3ece4a8"
             },
             "require": {
                 "php": ">=7.0",
@@ -589,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ce51476c570cea3db6694d73c76ea12de681db0d"
+                "reference": "28c0367cc605fafeaeedb781cb65c20ce952b9e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ce51476c570cea3db6694d73c76ea12de681db0d",
-                "reference": "ce51476c570cea3db6694d73c76ea12de681db0d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/28c0367cc605fafeaeedb781cb65c20ce952b9e6",
+                "reference": "28c0367cc605fafeaeedb781cb65c20ce952b9e6",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -666,7 +725,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2020-05-24T09:01:01+00:00"
+            "time": "2020-05-30T20:38:10+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
