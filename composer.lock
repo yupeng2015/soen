@@ -346,7 +346,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/command",
-                "reference": "9a3350c382ae7dd5f6c9169de1dfcc81a510e17f"
+                "reference": "1bbc5f9490b6fa2ae6505e0cd157eb83473a3b50"
             },
             "require": {
                 "php": ">=7.0.0",
@@ -367,10 +367,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/container",
@@ -378,7 +375,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/container",
-                "reference": "961821aef1c3dea9e33c683ae3fea9e19b5d4e33"
+                "reference": "aee65e0f50da02229d25f411decdf947b0fb4565"
             },
             "require": {
                 "psr/container": "^1.0"
@@ -404,10 +401,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/container",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/container"
         },
         {
             "name": "soen/event",
@@ -438,10 +432,7 @@
             "keywords": [
                 "event",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/filesystem",
@@ -469,10 +460,7 @@
             "keywords": [
                 "filesystem",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/http-message",
@@ -501,10 +489,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-message",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-message"
         },
         {
             "name": "soen/http-server",
@@ -535,10 +520,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-server",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-server"
         },
         {
             "name": "soen/router",
@@ -568,10 +550,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/server",
@@ -601,10 +580,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         }
     ],
     "packages-dev": [
@@ -665,6 +641,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
