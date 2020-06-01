@@ -8,6 +8,6 @@ class IndexController
 {
 	function index()
 	{
-
+        return '这是中文的';
 	}
 }
