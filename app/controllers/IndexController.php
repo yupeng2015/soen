@@ -10,4 +10,8 @@ class IndexController
 	{
         return '这是中文的';
 	}
+	function test()
+	{
+		return '这是test';
+	}
 }

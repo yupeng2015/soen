@@ -481,10 +481,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/container",
@@ -518,10 +515,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/container",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/container"
         },
         {
             "name": "soen/event",
@@ -552,10 +546,7 @@
             "keywords": [
                 "event",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/filesystem",
@@ -583,10 +574,7 @@
             "keywords": [
                 "filesystem",
                 "soen"
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/http-client",
@@ -594,7 +582,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/http-client",
-                "reference": "4296a1c94e0cfe2f08e79b91c821b7b0ed5fa0d0"
+                "reference": "9342427e7448d8356e42f1b731b2c9c0c5db91a6"
             },
             "require": {
                 "php": ">=7.0",
@@ -615,10 +603,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-client",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-client"
         },
         {
             "name": "soen/http-message",
@@ -648,10 +633,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-message",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-message"
         },
         {
             "name": "soen/http-server",
@@ -659,7 +641,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/http-server",
-                "reference": "dbb3bcba500468722b6d77595fa263be07407bf5"
+                "reference": "0910397629e6704d10f809f11a505b038201d26d"
             },
             "require": {
                 "php": ">=7.0",
@@ -682,10 +664,7 @@
                     "email": "soen66@163.com"
                 }
             ],
-            "description": "soen/http-server",
-            "transport-options": {
-                "relative": false
-            }
+            "description": "soen/http-server"
         },
         {
             "name": "soen/router",
@@ -693,7 +672,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/www-data/soen/frame/vendor/soen/router",
-                "reference": "29cf9a4c8cfd464473902b042e741c138403fe7d"
+                "reference": "db13c0990ca11a27d852200ec7c9660943fa3781"
             },
             "require": {
                 "php": ">=7.0",
@@ -715,10 +694,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "soen/server",
@@ -748,10 +724,7 @@
                     "name": "soen",
                     "email": "soen66@163.com"
                 }
-            ],
-            "transport-options": {
-                "relative": false
-            }
+            ]
         },
         {
             "name": "symfony/console",
@@ -836,20 +809,6 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-30T20:38:10+00:00"
         },
         {
@@ -913,20 +872,6 @@
                 "ctype",
                 "polyfill",
                 "portable"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-12T16:14:59+00:00"
         },
@@ -993,20 +938,6 @@
                 "polyfill",
                 "portable",
                 "shim"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-12T16:47:27+00:00"
         },
@@ -1077,20 +1008,6 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-12T16:14:59+00:00"
         },
         {
@@ -1156,20 +1073,6 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
@@ -1233,20 +1136,6 @@
                 "polyfill",
                 "portable",
                 "shim"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-12T16:47:27+00:00"
         },
@@ -1316,20 +1205,6 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
@@ -1393,20 +1268,6 @@
                 "interfaces",
                 "interoperability",
                 "standards"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-20T17:43:50+00:00"
         },
@@ -1485,20 +1346,6 @@
                 "utf-8",
                 "utf8"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-20T17:44:07+00:00"
         }
     ],
@@ -1561,6 +1408,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
