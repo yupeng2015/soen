@@ -16,7 +16,7 @@ Router::post('/index', [App\Controllers\IndexController::class, 'index'], [
 ]);
 
 Router::group(['middle'=>[\App\Middlewares\TestMiddlewares::class]], [
-	Router::get('/test', [App\Controllers\IndexController::class, 'test'], [
+	Router::get('/test/{id:\d}/{name:\w}', [App\Controllers\IndexController::class, 'test'], [
 		\App\Middlewares\Test1Middlewares::class,
 		\App\Middlewares\TestMiddlewares::class
 	]),
