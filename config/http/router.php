@@ -1,7 +1,7 @@
 <?php
 return [
 	'name'  =>  'router',
-    'class' =>  Soen\Router\Provider::class,
+    'class' =>  Soen\Router\RouterProvider::class,
 	'args'  =>  [
 		BASE_PATH . '/routes'
 	],

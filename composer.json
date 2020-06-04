@@ -17,7 +17,8 @@
         "soen/http-message": "dev-master",
         "soen/http-server": "dev-master",
         "soen/server": "dev-master",
-        "soen/http-client": "dev-master"
+        "soen/http-client": "dev-master",
+        "soen/di": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -61,6 +62,10 @@
         "soen/http-client": {
             "type": "path",
             "url": "/home/www-data/soen/frame/vendor/soen/http-client"
+        },
+        "soen/di": {
+            "type": "path",
+            "url": "/home/www-data/soen/frame/vendor/soen/di"
         }
     },
     "require-dev": {
